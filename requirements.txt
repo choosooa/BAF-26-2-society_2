@@ -1,0 +1,9 @@
+# Python 3 (팀 검증 환경 기준, docs/03_code_guide.md)
+pandas==3.0.2
+scikit-learn==1.8.0
+lightgbm==4.7.0
+numpy
+scipy
+matplotlib
+openpyxl
+jupyter
