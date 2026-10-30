@@ -1,0 +1,27 @@
+﻿변수,역할,측정 척도,단위,시간 변화,비고
+row_id,식별,명목,-,-,행 식별자
+timestamp,식별,구간(합성 시각),시각,-,사상 내 순서·간격만 유효
+station_id,식별,명목,-,-,"465곳, train/test 공유"
+wl_t,동적 입력,구간,m,변함,관측소별 기준면 상이 → 변화량만 의미
+wl_t_minus_1h,동적 입력,구간,m,변함,관측소별 기준면 상이 → 변화량만 의미
+wl_t_minus_3h,동적 입력,구간,m,변함,관측소별 기준면 상이 → 변화량만 의미
+wl_t_minus_6h,동적 입력,구간,m,변함,관측소별 기준면 상이 → 변화량만 의미
+wl_t_minus_12h,동적 입력,구간,m,변함,관측소별 기준면 상이 → 변화량만 의미
+wl_t_minus_24h,동적 입력,구간,m,변함,관측소별 기준면 상이 → 변화량만 의미
+imerg_rain_1h,동적 입력,비율,mm,변함,과거 누적
+imerg_rain_6h,동적 입력,비율,mm,변함,과거 누적
+imerg_rain_24h,동적 입력,비율,mm,변함,과거 누적
+sfc_rain_1h,동적 입력,비율,미확인(mm 추정),변함,0.5 계단
+sfc_rain_6h,동적 입력,비율,미확인(mm 추정),변함,0.5 계단
+sfc_rain_24h,동적 입력,비율,미확인(mm 추정),변함,0.5 계단
+radar_reflectivity_mean,동적 입력,구간,미기재,변함,로그형 척도
+radar_reflectivity_p95,동적 입력,구간,미기재,변함,로그형 척도
+radar_reflectivity_ge20_fraction,동적 입력,비율,0~1,변함,임계값 요약
+cat_area,정적 입력,비율,원자료,불변,소권역 평균
+wsarea,정적 입력,비율,원자료,불변,소권역 평균
+mean_elevation,정적 입력,구간,m,불변,
+mean_slope,정적 입력,비율,원자료,불변,
+urban_ratio,정적 입력,비율,%,불변,
+forest_ratio,정적 입력,비율,%,불변,
+stream_order,정적 입력,순서(평균 → 비정수),차수,불변,
+target_maxrise_6h,타깃,비율(차이값),m,변함,"음수 가능, train만"

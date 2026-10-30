@@ -1,0 +1,15 @@
+﻿,VIF
+radar_reflectivity_mean,15.92
+radar_reflectivity_ge20_fraction,7.22
+radar_reflectivity_p95,6.45
+sfc_rain_6h,6.35
+imerg_rain_6h,6.29
+dwl_3h,5.98
+sfc_rain_24h,5.81
+imerg_rain_24h,5.14
+dwl_1h,3.2
+dwl_6h,3.14
+sfc_rain_1h,2.95
+imerg_rain_1h,2.8
+dwl_24h,1.61
+wl_rel,1.53
