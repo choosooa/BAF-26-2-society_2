@@ -7,6 +7,10 @@ outputs/*.csv
 *.pkl
 *.joblib
 *.txt.model
+# EDA 캐시 (parquet·OOF, 드라이브로 공유)
+eda/cache/
+# 튜닝 실행 중 계속 덮어쓰는 로그
+outputs/handong_tuning/tuning_log.csv
 
 # 환경
 .ipynb_checkpoints/

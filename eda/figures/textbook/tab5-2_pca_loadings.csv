@@ -1,0 +1,8 @@
+﻿,PC1,PC2,PC3
+cat_area,0.312,0.052,0.718
+wsarea,0.198,0.664,-0.064
+mean_elevation,-0.472,0.074,0.298
+mean_slope,-0.477,0.153,0.322
+urban_ratio,0.361,-0.261,0.492
+forest_ratio,-0.49,0.168,0.211
+stream_order,0.208,0.657,0.041
