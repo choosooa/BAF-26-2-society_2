@@ -1,0 +1,20 @@
+# 대회 원본 데이터 (각자 공식 사이트에서 다운로드)
+data/
+
+# 용량 큰 산출물
+outputs/**/oof_*.csv
+outputs/*.csv
+*.pkl
+*.joblib
+*.txt.model
+
+# 환경
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.env
+.DS_Store
+Thumbs.db
+
+# Office 임시 파일
+~$*
