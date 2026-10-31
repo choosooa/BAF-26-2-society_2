@@ -1,0 +1,30 @@
+{
+  "final": "blend(w_hgb=0.2)",
+  "kind": "blend",
+  "features_file": "outputs/feature_exp_v1/final_features.json",
+  "lgb_params": {
+    "objective": "regression",
+    "learning_rate": 0.05,
+    "num_leaves": 63,
+    "min_data_in_leaf": 20,
+    "feature_fraction": 0.6,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 1,
+    "lambda_l2": 1.0,
+    "seed": 42,
+    "verbose": -1
+  },
+  "lgb_n_round": 758,
+  "hgb_params": {
+    "learning_rate": 0.05,
+    "max_iter": 800,
+    "max_leaf_nodes": 63,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0,
+    "early_stopping": false,
+    "random_state": 42
+  },
+  "w_hgb": 0.2,
+  "cv_oof_rmse": 0.2156,
+  "base_oof_rmse": 0.2178
+}
