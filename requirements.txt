@@ -1,9 +1,12 @@
-# Python 3 (팀 검증 환경 기준, docs/03_code_guide.md)
-pandas==3.0.2
-scikit-learn==1.8.0
+# 팀 공통 환경 (2026-10-31 확정). conda 환경 이름: hou
+#   conda create -n hou python=3.13 -y
+#   conda activate hou
+#   pip install -r requirements.txt
+numpy==2.3.5
+pandas==2.3.3
+scikit-learn==1.7.2
 lightgbm==4.7.0
-numpy
 scipy
 matplotlib
 openpyxl
-jupyter
+ipykernel
